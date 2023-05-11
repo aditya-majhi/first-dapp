@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMood",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_mood",
+						"type": "string"
+					}
+				],
+				"name": "setMood",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mood.sol": "MoodDiary"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"mood.sol": {
+			"keccak256": "0x32122832970ece7513a1896ad35d21c9e250cd450db3082dae8c9c4f0595f281",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f02b6672b6f2c395e92a5dcca5bc209e1f4b3cf29a78e7d6c113e137c6c0f19e",
+				"dweb:/ipfs/QmVM8U2jv4TKzBYszBNft4m5ry9WsmE5KsXACGmXrYHUPD"
+			]
+		}
+	},
+	"version": 1
+}
